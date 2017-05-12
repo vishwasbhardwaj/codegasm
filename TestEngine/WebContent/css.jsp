@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Css tutorials</title>
+</head>
+<body>
+<%@include file="Studentdashboard.jsp"%>
+<p><h1><b>learn Css watch tutorial</b></h1></p>
+
+<video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/1.mp4" type="video/mp4">
+ </video>
+ <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/2.mp4" type="video/mp4">
+ </video>
+ <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/3.mp4" type="video/mp4">
+ </video>
+ <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/4.mp4" type="video/mp4">
+ </video>
+ <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/5.mp4" type="video/mp4">
+
+ </video>
+  <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/6.mp4" type="video/mp4">
+
+ </video>
+  <video width="320" height="240"  style="width:640px;height:360px;"controls>
+<source src="video/css/7.mp4" type="video/mp4">
+
+ </video>
+</body>
+</html>
