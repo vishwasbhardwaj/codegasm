@@ -86,17 +86,18 @@ and open the template in the editor.
     FB.api('/me?fields=name,email', function(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
-      '<p>Welcome'+response.name+'! <a href=admin.html?user_name='+response.name.replace(" ","_")+'&user_email='+response.email+''
+  '<p>Welcome' + response.name + '! <a href=Studentdashboard1.jsp?user_name=' + response.name.replace(" ", "_") + '&user_email=' + response.email + '>'
+    
     });
   }
   
 </script>
 <script>
-    FB.Event.subscribe('auth.login',function(response)
-    {
-       alert("Logged in .. Redirecting you now...");
-       window.location='http//localhost:8084/CODEGAS_M/admin.html';
-    });
+    FB.Event.subscribe('auth.login', function (response)
+            {
+                alert("Logged in .. Redirecting you now...");
+                window.location = 'Studentdashboard1.jsp';
+            });
 </script>
 
 <!--
@@ -107,6 +108,6 @@ and open the template in the editor.
  
   
    <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" 
-          data-auto-logout-link="true" data-use-continue-as="true" onlogin="window.location='CODEGAS_M/admin.html'"></div>
+          data-auto-logout-link="true" data-use-continue-as="true" onlogin="'Studentdashboard1.jsp'"></div>
 </body>
 </html>
